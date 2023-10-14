@@ -1,0 +1,73 @@
+.navMenu{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.logo{
+    margin: 20px 8px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.logo .icon {
+    font-size: 35px;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.navlogo .icon{
+    font-size: 25px;
+    font-weight: 500;
+}
+.next{
+    position: absolute;
+    top: 16px;
+    right: -50%;
+}
+.profile{
+    background-color: rgba(184, 172, 252, 0.5);
+    height: 50px;
+    width: 90%;
+    margin: 80px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
+.navlogo h6{
+    background-color: rgba(184, 172, 252, 0.5);
+    height: 40px;
+    width: 130%;
+    border-radius: 5px;
+    padding: 8px;
+}
+.profileData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profileImg{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -15px;
+}
+.about{
+    position: absolute;
+    left: 55px;
+    top: 8px;
+    line-height: 3px;
+
+}
+.profileIcon{
+    position: absolute;
+    right: 8px;
+    font-size: 25px;
+    font-family: 40px;
+}

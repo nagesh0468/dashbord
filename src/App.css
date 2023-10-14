@@ -1,0 +1,26 @@
+.App{
+  height: 100vh;
+  display: flex;
+}
+.NavContainer{
+  width: 20%;
+  background-color: rgb(26, 13, 100);
+  color: #fff;
+}
+.mainContainer{
+  width: 85%;
+  background-color: #fff4f4;
+  padding: 2% 2%;
+}
+.topContainer{
+  height: 8%;
+}
+.cardContainer{
+  height: 22%;
+}
+.chartContainer{
+  height: 45%;
+}
+.tableContainer{
+  height: 25%;
+}

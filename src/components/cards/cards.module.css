@@ -1,0 +1,40 @@
+.cards{
+    width: 23%;
+    height: 120px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icons{
+    color: green;
+    width: 40%;
+    font-size: 100px;
+    position: relative;
+    bottom: 15px;
+    
+}
+.increase{
+    color: green;
+    font-weight: 800;
+}
+.decrease {
+    color: red;
+    font-weight: 800;
+}
+.rupees{
+line-height:15px;
+padding: 20px 5px;
+}
+.rupees .dollar{
+    font-size: 30px;
+    font-weight: 500;
+}
