@@ -1,46 +1,11 @@
 import React from 'react'
 import s from './cards.module.css'
-import {RiMoneyDollarCircleFill} from 'react-icons/ri'
-import {BiWalletAlt,BiUpArrowAlt,BiDownArrowAlt} from 'react-icons/bi'
-import {BsFillBagFill} from 'react-icons/bs'
-import {HiDocumentText} from 'react-icons/hi'
+import { dollar } from '../utils/CardItems'
+import {BiDownArrowAlt} from 'react-icons/bi'
+
 const cards = () => {
 
-    const dollar = [
-        {
-            id : 1,
-            icons :<RiMoneyDollarCircleFill />,
-            earnings : 'Earning',
-            rupees : '$198k',
-            amount : '37.8%',
-            arrows : <BiUpArrowAlt/>,
-        },
-        {
-            id : 2,
-            icons :<HiDocumentText />,
-            earnings : 'Orders',
-            rupees : '$2.4k',
-            amount : '2%',
-            arrows : <BiDownArrowAlt/>,
-        },
-        {
-            id : 3,
-            icons : <BiWalletAlt />,
-            earnings : 'Balance',
-            rupees : '$2.4k',
-            amount : '2%',
-            arrows : <BiDownArrowAlt/>,
-        },
-        {
-            id : 4,
-            icons : <BsFillBagFill />,
-            earnings : 'Total sales',
-            rupees : '$89k',
-            amount : '11%',
-            arrows : <BiUpArrowAlt/>,
-        }
-    ]
-
+    
   return (
     <div className={s.container} >
 

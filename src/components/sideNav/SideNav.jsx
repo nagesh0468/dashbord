@@ -1,45 +1,12 @@
 import React from 'react'
 import s from './sidenav.module.css'
 import {TbHexagonLetterD} from 'react-icons/tb'
-import {MdOutlineNavigateNext, MdOutlineSmsFailed, MdOutlineKeyboardArrowDown} from 'react-icons/md'
-import {AiFillCodeSandboxSquare} from 'react-icons/ai'
-import {BiSolidUserRectangle} from 'react-icons/bi'
-import {CiWallet} from 'react-icons/ci'
-import {LuBadgePercent} from 'react-icons/lu'
+import {MdOutlineNavigateNext, MdOutlineKeyboardArrowDown} from 'react-icons/md'
+import { navNames } from '../utils/CardItems'
+
 
 const SideNav = () => {
-    
-    const navNames = [
-        {
-            id : 1,
-            name : 'Products',
-            icon : <AiFillCodeSandboxSquare/>,
-        },
-        {
-            id : 2,
-            name : 'Customers',
-            icon : <BiSolidUserRectangle/>,
-        },
-        {
-            id : 3,
-            name : 'Income',
-            icon : <CiWallet/>,
-        },
-        {
-            id : 4,
-            name : 'Promote',
-            icon :  <LuBadgePercent/>,
-        },
-        {
-            id : 5,
-            name : 'Help',
-            icon :  <MdOutlineSmsFailed/>,
-        },
-        
-
-    ]
-    
-    
+ 
   return (
     <div className={s.container}  >
                <div>
