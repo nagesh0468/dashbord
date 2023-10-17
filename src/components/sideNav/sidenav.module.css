@@ -1,5 +1,5 @@
 .navMenu{
-    height: 90vh;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -32,13 +32,14 @@ ul{
     background-color: rgba(184, 172, 252, 0.5);
     height: 50px;
     width: 90%;
-    margin: 80px 10px;
+    /* margin: 150px 10px; */
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     flex-direction: row;
+    top: 150px;
 }
 .navlogo h6{
     background-color: rgba(184, 172, 252, 0.5);
@@ -69,5 +70,36 @@ ul{
     position: absolute;
     right: 8px;
     font-size: 25px;
-    font-family: 40px;
+
 }
+
+
+@media only screen and (max-width: 992px) {
+    .hiddenMobileView{
+     display: none;
+    }
+    .profileIcon{
+        font-size: 20px; 
+        position: absolute;
+        right: 0; 
+    }
+    .profile{
+        font-size: 12px;
+    }
+   
+ }
+
+ @media only screen and (max-width : 570px){
+    .logo{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .logo .icon{
+        font-size: 25px;
+    }
+  .profile{
+    display: none;
+  }
+ 
+ }
+ 

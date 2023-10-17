@@ -16,10 +16,15 @@
 }
 .icons{
     color: green;
-    width: 40%;
-    font-size: 100px;
-    position: relative;
+    width: 35%;
+    height: 70%;
+    font-size:50px;
+     position: relative;
     bottom: 15px;
+    background-color: #3df03db6;
+    border-radius: 50%;
+    margin-top :30px;
+    text-align: center;
     
 }
 .increase{
@@ -31,10 +36,64 @@
     font-weight: 800;
 }
 .rupees{
-line-height:15px;
-padding: 20px 5px;
+    line-height: 10px;
+    
 }
 .rupees .dollar{
     font-size: 30px;
     font-weight: 500;
 }
+.month{
+    margin-top: 10px;
+  
+}
+
+@media only screen and (max-width: 570px) {
+   
+   .cards{
+    width: 100%;
+    margin-bottom: 5px;
+   }
+   .icons{
+     margin-right: 30px;
+     padding-bottom: 115px ;
+     font-size: 75px;
+   }
+.rupees{
+    margin-right: 55px;
+}
+.rupees p{
+    font-size: 10px;
+    font-weight: 600;
+}
+    .container{
+        flex-direction: row;
+    }
+ }
+
+@media only screen and (max-width: 992px) {
+   
+    .rupees{
+        line-height: 10px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .card{
+        padding: 10px 20px;
+    }
+    .icons{
+        width: 40%;
+        height: 65%;
+        color: green;
+        background-color: #3df03db6;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .rupees .dollar{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+ }
+
+ 

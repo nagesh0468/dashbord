@@ -7,7 +7,7 @@ const TopBar = () => {
   return (
     <div className={s.container}>
       <div>
-        <h5>Hello Shahrukh👋</h5>
+        <h5 className={s.message} >Hello Shahrukh👋</h5>
       </div>
       <div>
         <span>

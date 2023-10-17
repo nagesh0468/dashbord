@@ -1,7 +1,6 @@
 import React from 'react'
 import s from './cards.module.css'
 import {RiMoneyDollarCircleFill} from 'react-icons/ri'
-import {GrDocumentText} from 'react-icons/gr'
 import {BiWalletAlt,BiUpArrowAlt,BiDownArrowAlt} from 'react-icons/bi'
 import {BsFillBagFill} from 'react-icons/bs'
 import {HiDocumentText} from 'react-icons/hi'
@@ -54,7 +53,7 @@ const cards = () => {
                 <div className={s.rupees} >
                     <p>{el.earnings}</p>
                     <span className={s.dollar} >{el.rupees}</span>
-                    <p><span className={ `${el.arrows && <BiDownArrowAlt/> }  ? ${s.decrease} : ${s.increase}`} >{el.arrows}{el.amount}</span> this month </p>
+                    <p className={s.month} ><span className={ `${el.arrows && <BiDownArrowAlt/> }  ? ${s.decrease} : ${s.increase}`} >{el.arrows}{el.amount}</span>this month</p>
                 </div>
             </div>
     

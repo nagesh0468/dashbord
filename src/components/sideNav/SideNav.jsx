@@ -44,7 +44,7 @@ const SideNav = () => {
         </div>
         <div className={s.navMenu}>
             <div className={s.navlogo}>
-            <h6 > <TbHexagonLetterD className={s.icon} /> Dashboard</h6>
+            <h6 > <TbHexagonLetterD className={s.icon} /><span className={s.hiddenMobileView} > Dashboard </span> </h6>
 
             {
                navNames && navNames.map((el) => 
@@ -53,7 +53,7 @@ const SideNav = () => {
                     
                     <ul key={el.id}>
         
-                        <li> <span className={s.icon}>{el.icon}</span> {el.name}<MdOutlineNavigateNext className={s.next} /></li>
+                        <li> <span className={s.icon}>{el.icon}</span>  <span className={s.hiddenMobileView}>{el.name}</span><MdOutlineNavigateNext className={s.next} /></li>
                     </ul>
                 ) )
             }

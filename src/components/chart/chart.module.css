@@ -15,9 +15,20 @@
 .pieChart{
     width: 35%;
     height: 250px;
-    /* background-color: black; */
     border-radius: 10px;
     background-image: url('https://img.freepik.com/free-vector/3d-pie-chart_78370-626.jpg?size=626&ext=jpg') ;
     background-size: 100% 100%;
    
+}
+
+@media only screen and (max-width: 570px){
+    
+    .barChart{
+        width: 100%;
+       
+    }
+    .pieChart{
+        width: 100%;
+       
+    }
 }

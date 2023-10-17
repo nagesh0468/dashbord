@@ -16,3 +16,18 @@ input{
     color: lightgray;
     font-weight: 300;
 }
+
+@media only screen and (max-width : 570px){
+    .container{
+        flex-direction: column;
+        padding: 20px 0px;
+
+    }
+    .message{
+        font-size: 15px;
+    }
+    input{
+        height: 25px;
+    }
+}
+
