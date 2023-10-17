@@ -117,7 +117,9 @@
     .container{
         overflow-x: scroll;
     }
-    
+    .icon{
+        right: 380px;
+    }
  
 }
 
