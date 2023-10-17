@@ -6,7 +6,9 @@ import {AiFillCodeSandboxSquare} from 'react-icons/ai'
 import {BiSolidUserRectangle} from 'react-icons/bi'
 import {CiWallet} from 'react-icons/ci'
 import {LuBadgePercent} from 'react-icons/lu'
+
 const SideNav = () => {
+    
     const navNames = [
         {
             id : 1,
@@ -37,10 +39,11 @@ const SideNav = () => {
 
     ]
     
+    
   return (
-    <div className={s.container} >
-        <div>
-        <h3 className={s.logo}> <TbHexagonLetterD className={s.icon} />  Dashboard</h3>
+    <div className={s.container}  >
+               <div>
+        <h3 className={s.logo}  > <TbHexagonLetterD className={s.icon} />  Dashboard</h3>
         </div>
         <div className={s.navMenu}>
             <div className={s.navlogo}>
@@ -74,6 +77,8 @@ const SideNav = () => {
             
          </div>
         </div>
+       
+
     </div>
   )
 }

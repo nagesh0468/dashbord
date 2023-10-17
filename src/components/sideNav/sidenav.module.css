@@ -4,6 +4,8 @@
     align-items: center;
     justify-content:space-between;
     flex-direction: column;
+    cursor: pointer;
+
 }
 .logo{
     margin: 20px 8px;
@@ -13,6 +15,7 @@
 .logo .icon {
     font-size: 35px;
     font-weight: 500;
+    cursor: pointer;
 }
 ul{
     list-style: none;
@@ -74,6 +77,7 @@ ul{
 }
 
 
+
 @media only screen and (max-width: 992px) {
     .hiddenMobileView{
      display: none;
@@ -97,9 +101,12 @@ ul{
     .logo .icon{
         font-size: 25px;
     }
-  .profile{
-    display: none;
-  }
- 
+     .profile{
+        display: none;
+     }
+     .navlogo h6{
+        width: 50px;
+     }
+    
  }
  
